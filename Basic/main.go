@@ -13,12 +13,9 @@ func main() {
 	fmt.Println(name)
 
 	// declaring multiple variables at once and assigning values to them
-	names := []string{"maestro", "john", "doe", value_add()}
+	names := list{"maestro", "john", "doe", value_add()} // declaring a slice of type list and initializing it with some values
 	names = append(names, value_add()) // appending a new value to the slice
-
-	for i,name := range names {
-		fmt.Println(i, name)
-	}
+	names.print() //  names is of type list and we can call the print method on it to print the values in the list
 
 }
 
