@@ -32,7 +32,9 @@ Learning Go
 | `float64` | 64-bit floating point (default for decimals) |
 | `string` | Immutable text/UTF-8 encoded bytes |
 | `bool` | Boolean value (`true` or `false`) |
-| `byte` | 8-bit unsigned integer (represents single byte) |
+| `map` | Unordered collection of key-value pairs |
+| `slice` | Dynamic-length sequence of elements of the same type |
+
 
 ### Numeric Types
 | Type | Size | Range | Description |
