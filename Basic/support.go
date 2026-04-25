@@ -7,3 +7,7 @@ func (l list) print() {  // defining a method called print on the list type whic
 		println(i, name)
 	}
 }
+
+func value_add() string{
+	return  "oliver"
+}
